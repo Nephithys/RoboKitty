@@ -32,7 +32,7 @@ namespace RoboKitty
         {
             if (isGlassPopulated == true)
             {
-                Console.WriteLine("knock over Humans glass");
+                Console.WriteLine("Knock over Humans glass");
             }
             else
             {

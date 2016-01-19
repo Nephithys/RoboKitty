@@ -19,6 +19,7 @@ namespace RoboKitty
             switch (userInput)
             {
                 case "1":
+                    Console.Clear();
                     RobotCat myRoboCat = new RobotCat(4, 1, 1, true);
                     myRoboCat.scan();
                     myRoboCat.walk();
@@ -26,6 +27,7 @@ namespace RoboKitty
                     break;
 
                 case "2":
+                    Console.Clear();
                     BattleModeRoboKitty myBattleModeRoboKitty = new BattleModeRoboKitty(4, 1, 1, 5, "Iroh");
                     myBattleModeRoboKitty.walk();
                     myBattleModeRoboKitty.attack();

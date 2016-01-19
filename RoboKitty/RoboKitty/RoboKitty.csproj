@@ -47,7 +47,6 @@
     <Compile Include="PickYourBot.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RandomKitty.cs" />
     <Compile Include="RoboSkeleton.cs" />
     <Compile Include="RobotCat.cs" />
   </ItemGroup>
