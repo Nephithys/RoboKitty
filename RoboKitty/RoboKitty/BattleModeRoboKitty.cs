@@ -10,7 +10,7 @@ namespace RoboKitty
     {
         public int numOfGuns;
         public string Name;
-        public int enemies = 56;
+        public int enemies = 1;
         public BattleModeRoboKitty(int legs, int head, int tail, int guns, string name)
         {
             numOfLegs = legs;
@@ -23,19 +23,24 @@ namespace RoboKitty
 
         public override void walk()
         {
-            Console.WriteLine("sprint to enemies");
+            Console.WriteLine("sprint to destination");
         }
 
+        
+        
         public void attack()
         {
-            if (enemies >= 1)
+            if (enemies >= 8)
             {
                 Console.WriteLine("Protect human and eleminate all threats");
 
             }
             else
             {
-                Console.WriteLine();
+                Console.WriteLine("meow profusely");
+                System.Media.SoundPlayer player = new System.Media.SoundPlayer("Kittens_And_Cats_Meowing.wav");
+                player.Play();
+                Console.ReadLine();
             }
 
 

@@ -10,7 +10,10 @@ namespace RoboKitty
     {
         static void Main(string[] args)
         {
-           RobotCat myRoboCat = new RobotCat(4,1,1,true);
+
+            PickYourBot myPickYourBot = new PickYourBot();
+            myPickYourBot.ChooseBot();
+
 
         }
     }
